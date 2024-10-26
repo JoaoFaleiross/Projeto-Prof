@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="musica.css">
+    
+    <!--jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+
+
+<body>
+    <div>
+        <menu>
+            <a class="menu-itens" href="index.html">Home</a>
+            <a class="menu-itens" href="danca.html">Dança</a>
+            <a class="menu-itens" href="musica.html">Musica</a>
+            <a class="menu-itens" href="teatro.html">Teatro</a>
+        </menu>
+    </div>
+    <h1 id="titulo"><u>Apresentação de Shows</u></h1>
+
+    <div class="caixa1">
+        <div style="width: 50%;">
+            <h3>Rock Revolution com "Thunderbeat"</h3>
+            <p><strong><u>Classificação: 16+</u></strong></p>
+            <p>O <em> "Thunderbeat"</em> é uma banda de rock que desde sua formação em 2010 tem dominado os palcos com
+                sua
+                energia avassaladora e riffs marcantes. Com vários prêmios, incluindo o Grammy de Melhor Álbum de Rock
+                em
+                2018, a banda é conhecida pelo sucesso "Electric Storm", um hino moderno do rock. Não perca a chance de
+                ver
+                o grupo ao vivo e tirar fotos no camarim com a banda após o show!</p>
+            <audio controls>
+                <source src="Musica/musica1.mp3" type="audio/mpg">
+                Seu navegador não suporta a tag de video
+            </audio>
+        </div>
+
+
+        <div id="carrosselShow1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="show/show2.jpg" alt="Primeiro Slide"
+                        style="width: 800px;height: 600px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Só Nessa data</h5>
+                        <p> Não perca </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <video src="carousel/showCaVideo.mp4" controls autoplay style="width: 100%; height: 600px;">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Público vai a loucura</h5>
+                        <p> Casa Lotada </p>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carrosselShow1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carrosselShow1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="caixa1">
+        <img src="show/show3.jpg" alt="" style="height: 500px; width: 600px;">
+        <div style="width:50%">
+            <h3>Jazz Elegance com "Ella"</h3>
+            <p><u><strong>Classificação: Livre</strong></u></p>
+            <p> <em> "Ella"</em> traz o charme do jazz clássico com um toque contemporâneo. Formada em 2015, a banda
+                conquistou vários prêmios de jazz, incluindo o prêmio de Melhor Performance Vocal em 2021. Seu grande
+                sucesso, "Moonlight Serenade", é um clássico que sempre encanta o público. Aproveite a oportunidade de
+                tirar
+                fotos com os músicos no camarim após a performance elegante!</p>
+            <audio controls>
+                <source src="Musica/musica2.mp3" type="audio/mpeg">
+                Seu navegador não suporta a tag de video
+            </audio>
+        </div>
+    </div>
+    <div class="caixa1">
+        <div style="width: 50%;">
+    <h3>Fit Dance com "Neon Vibes"</h3>
+    <p> <em>"Neon Vibes"</em> é a sensação da música eletrônica, formada em 2018. Com uma série de prêmios de
+        música
+        eletrônica e o hit "Dance All Night", o grupo promete um show cheio de energia e luzes vibrantes. Os fãs
+        poderão capturar a magia do show e tirar fotos no camarim com a equipe após a performance.</p>
+        <p><u><strong>Classificação: 12+</strong></u></p>s
+        <audio controls>
+            <source src="Musica/musica3.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+        <div id="carrosselShow2" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="show/show1.jpg" alt="Primeiro Slide"
+                        style="width: 800px;height: 600px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Só Nessa data</h5>
+                        <p> Não perca </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <video src="show/show1.mp4" controls autoplay style="width: 100%; height: 600px;">
+                    </video>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Público vai a loucura</h5>
+                        <p> Casa Lotada </p>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carrosselShow2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carrosselShow2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Pulse Eventos. Todos os direitos reservados</p>
+      </footer>
+
+</body>
+
+</html>

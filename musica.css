@@ -1,0 +1,86 @@
+/***Quando eu quero estilizar m elemento pelo nome eu simplismente coloco  nome do elemnto igual realizamos abiaco, estilizando***/
+p {
+    width: 80%;
+}
+ul {
+    width: 40%;
+}
+
+body {
+    background-color: #7ecbe29c;
+}
+
+menu {
+    background-color: #260d61;
+    padding: 10px;/***adiciona espaço ao redor do conteúdo do menu***/
+    text-align: center; /**Alinhamento de texto**/
+    display: flex;/**Usa m layout flexível parar alinahr os elementos**/
+    justify-content: center;/*Alinha os elemnetos horizontalmnete**/
+    gap: 60px;/**define a distancia entre os elementos*/
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    margin-top: -1%;
+    height: 80px;
+}
+/**Estilizando o elemento pela classe com o caracter. Antes do nome da classe**/
+.menu-itens{
+    color: aliceblue;
+    text-decoration: none;/**Define o tamnho do texto**/
+    padding: 10px 20px ;
+    font-size: 10px 20px; /**define o tamanho do texto**/
+    display: inline-block; /**Deixa o item como o bloco em uma linha**/
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+}
+
+video {
+    width: 100%;
+    height: 500px;
+}
+/*Hover é um evento de mouse que ocorre uma ação toda vez que colocamos o mouse em cima do elemento.Abaixo aplicamos um evento de mouse no nosso menu*/
+.menu-itens:hover{
+    background-color:rgba(134, 29, 167, 0.719); /*Cor de fundo*/
+    color: brown; /*Cor do texto*/
+    width: 220px;
+    padding: 15px 25px;
+    border-radius:  8px; /*arredondar as bordar de um elemento */
+}
+.caixa1{
+    display: flex;
+    background-color: rgba(77, 9, 117, 0.548);
+    padding: 15px;
+    margin: 30px;
+    align-items: center;    
+    gap: 1rem;
+}
+.carousel-inner{
+    position: relative; /*Ao mover o elemento, ele não interfere mos outros elementos ao seu redor*/
+}
+.carousel-control-prev, .carousel-control-next{
+    position: absolute;/*posiciona um elemento em relação ao elemento pai mais próx.*/
+    top: 50%;/*Posiciona a 50% da altura do elemento filho*/
+    transform: translateY(-50%);
+    width: 5%;/*Ajuste da largura das setas*/
+    z-index: 1;/*Garante que fiquem sobre a imagem*/
+    background-color: black;
+}
+footer{
+    background-color: #260d61;
+    height: 50px;
+    color: aliceblue;
+    justify-items: center;
+    padding-top: 1%;
+    margin-bottom: 0%;
+}
+#titulo{
+    padding-top: 10%;
+    margin-left: 2%;
+}
+
+    
