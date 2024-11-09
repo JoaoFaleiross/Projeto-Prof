@@ -57,11 +57,34 @@ footer{
         justify-items: center;
         padding-top: 1%;
         margin-bottom: 0%;
+
     }
     
 #titulo{
     padding-top: 10%;
     margin-left: 2%;
 }
-    
+table{
+    border: solid 3px;
+    border-color: rgb(0, 0, 0);
+}
+  thead{
+    background-color: #260d6185;
+    color: blue;
+    height: 15px;
+  }  
+  th{
+    width: 150px;
+    text-align: center;
+    align-items: center;
+    border: #260d61;
+  }
+  tbody{
+    background-color: #4aa3be9c;
+  }
+  td{
+    text-align: center;
+    border: #260d61;
+  }
+  uma mistura de wlesley safadao com uma coisa feia
 
